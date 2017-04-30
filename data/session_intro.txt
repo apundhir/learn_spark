@@ -1,0 +1,13 @@
+Topic Abstract
+
+Designing an enterprise class streaming application has significant challenges. Such challenges include handling imperfections in data stream - e.g. out of order arrival of data, handling system recoverable or irrecoverable system failures, and guaranteeing consistent results.
+
+In real world applications these discrepancies are often exhibited and current distributed stream computation requires end user to handle such discrepancies and design custom solutions. 
+
+Structured streaming is the new component introduced from Spark 2.0 to simplify end to end development of continuous application where consistency, fault-tolerance and stream imperfection handling mechanisms are inbuilt. 
+
+In this talk I will try to explain problems faced while building high-throughput real world streaming application and how such problems can be solved using structured streaming and structured stream processing model provided in Spark 2.0. In specific I will talk about strong notion of prefix consistency, transactional source modelling, interactive stream queries and analytics on structured streams.
+
+Speaker Profile
+
+Ajay has nearly 8 years of industrial experience and He is currently working on Big data Technologies in BFSI domain. His primary area of interests are Real time Analytics and Machine learning. He graduated from International Institute of Information Technology, Bangalore.
